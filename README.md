@@ -28,3 +28,4 @@ Tel:0717006024
 
 ## Licence
 mit licence.copywright 2019
+https://github.com/amwaniki180/delani-studio/blob/master/LICENSE

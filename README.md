@@ -5,7 +5,7 @@ delani-studio
 Antony Mwaniki
 
 ## Description
-a project that shows the extensive capabalities i have acquired in js.
+a project that shows the extensive capabalities that i have acquired in js.
 
 ## Technology
 1.css
@@ -15,7 +15,7 @@ a project that shows the extensive capabalities i have acquired in js.
 
 
 ## Installation:
-use  the link to be able to acess the site..
+use  the link to be able to acess the site..https://amwaniki180.github.io/delani-studio
 Aterwards key in your email and after keying a pop up will alert you that the company has received your details.
 
 ## live link

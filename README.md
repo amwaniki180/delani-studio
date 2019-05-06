@@ -19,6 +19,7 @@ use  the link to be able to acess the site..
 Aterwards key in your email and after keying a pop up will alert you that the company has received your details.
 
 ## live link
+https://amwaniki180.github.io/delani-studio/
 
 
 ## Support

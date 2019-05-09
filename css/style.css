@@ -1,109 +1,136 @@
-body{
-  text-align: center;
+body {
+    text-align: center;
     font-size: 25px;
 }
-.home{
-  background-image: url("../assets/backgrounds/h_img.jpg");
-  height: 100vh;
-   background-size: cover;
-   color: white;
-   
+
+.home {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: white;
 }
-.h1{
-  padding-top: 300px;
+
+.h1 {
+    padding-top: 300px;
 }
-#mouse{
-  position: absolute;
-  bottom: 30px;
+
+#mouse {
+    position: absolute;
+    bottom: 30px;
 }
-.SERVICES{
+
+.SERVICES {
     background-image: url("../assets/backgrounds/s_image.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
     color: white;
     padding: 70px;
     padding-top: 70px;
 }
-.portfolio{
-  margin-bottom: 40px;
-}
-.portfolio-title{
-  display: flex;
-  text-align: center;
-  justify-content:center;
-}
-.portfolio-image{
-  display: flex;
-  justify-content: center;
-}
- .imageContainer{
-  display: inline-block;
-  width: 225px;
-  height: 200px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  position: relative;
-  text-align: center;
-  color: #FEFEFC;
-}
-.imageContainer img{
-  width: 230px;
-  height: 200px;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-.work1-div,.work2-div,.work3-div,.work4-div,.work5-div,.work6-div,.work7-div,.work8-div{
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: #FEFEFC solid 2px;
-  background: #FEFEFC;
-  opacity: 0.7;
-  color: black;
-}
-#devel,#product,#design{
-  min-height: 250px;
-}
-#contact{
-  background-image: url("../assets/backgrounds/c_image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-#name{
-  width: 300px;
-  height: 30px;
-}
-#email{
-  width: 300px;
-  height: 30px;
-}
-#message{
-  width: 700px;
-}
-.WHAT{
-  min-height: 300px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 
-  text-align: center;
+.portfolio {
+    margin-bottom: 40px;
 }
-.WHAT h2{
-  width: 100%;
+
+.portfolio-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.WHAT .row{
-  width: 33%;
+
+.portfolio-image {
+    display: flex;
+    justify-content: center;
 }
-@media only screen and(max-width: 800px){
-  .WHAT{
-    background: green;
-  }
-  .WHAT .row{
+
+.imageContainer {
+    display: inline-block;
+    width: 225px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    color: #FEFEFC;
+}
+
+.imageContainer img {
+    width: 230px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.work1-div,
+.work2-div,
+.work3-div,
+.work4-div,
+.work5-div,
+.work6-div,
+.work7-div,
+.work8-div {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #FEFEFC solid 2px;
+    background: #FEFEFC;
+    opacity: 0.7;
+    color: black;
+}
+
+#devel,
+#product,
+#design {
+    min-height: 250px;
+    display: none;
+}
+
+#contact {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#name {
+    width: 300px;
+    height: 30px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+}
+
+#message {
+    width: 700px;
+}
+
+.WHAT {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.WHAT h2 {
     width: 100%;
-    background: red;
-  }
+}
+
+.WHAT .row {
+    width: 33%;
+}
+
+@media only screen and(max-width: 800px) {
+    .WHAT {
+        background: green;
+    }
+    .WHAT .row {
+        width: 100%;
+        background: red;
+    }
 }

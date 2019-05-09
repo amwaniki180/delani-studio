@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#devel").click(function(){
       $("#image2").show();
       $("#devel").hide();
-  
+
   });
 
   $("#image3").click(function () {
@@ -24,7 +24,15 @@ $(document).ready(function () {
   });
   $("#product").click(function(){
     $("#image3").show();
-    $("#product").hide();  
+    $("#product").hide();
   });
-
 })
+ var workIds = ['work1','work2','work3','work4','work5','work6','work7','work8'];
+    workIds.forEach(function(id){
+        $("#"+id).mouseover(function () {
+            $("."+id+"-div").show();
+        });
+        $("#"+id).mouseout(function () {
+            $("."+id+"-div").hide();
+        });
+    });

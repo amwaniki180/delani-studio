@@ -3,19 +3,19 @@ body{
     font-size: 25px
 }
 .home{
-  background-image: url("https://amwaniki180.github.io/delani-studio/assets/backgrounds/h_img.jpg");
+  background-image: url("/home/antony/Documents/Main Moringa Projects/moringa-school-project/delani-studio/IP3-master/assets/backgrounds/h_img.jpg");
   height: 100vh;
    background-size: cover;
    color: white;
 }
 .SERVICES{
-    background-image: url("https://amwaniki180.github.io/delani-studio/assets/backgrounds/s_image.jpg");
+    background-image: url("/home/antony/Documents/Main Moringa Projects/moringa-school-project/delani-studio/IP3-master/assets/backgrounds/s_image.jpg");
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: 100%
     color: white;
     padding: 40px;
     padding-top: 70px;
-    
+    padding-bottompadding: 40px;: 70px;
 }
 .h1{
   padding-top: 380px;
@@ -27,9 +27,10 @@ body{
   float:left;
    width: 33.33%;
 }
-#CONTACT{
-  background-image: url("https://amwaniki180.github.io/delani-studio/assets/backgrounds/c_image.jpg");
+#contact{
+  background-image: url("/home/antony/Documents/Main Moringa Projects/moringa-school-project/delani-studio/IP3-master/assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  color:white;
 }

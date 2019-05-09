@@ -3,19 +3,18 @@ body{
     font-size: 25px
 }
 .home{
-  background-image: url("./assets/backgrounds/h_img.jpg");
+  background-image: url("../assets/backgrounds/h_img.jpg");
   height: 100vh;
    background-size: cover;
    color: white;
 }
 .SERVICES{
-    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat:no-repeat;
-    background-size: 100%
+    background-size: 100%;
     color: white;
     padding: 40px;
     padding-top: 70px;
-    padding-bottompadding: 40px;: 70px;
 }
 .h1{
   padding-top: 380px;
@@ -28,9 +27,8 @@ body{
    width: 33.33%;
 }
 #contact{
-  background-image: url("./assets/backgrounds/c_image.jpg");
+  background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-
 }

@@ -56,5 +56,10 @@ $(document).ready(function () {
             var name = $("#name").val();
         alert(name + " we have received your message. Thank you for subscribing");
         },
+        error: function(jqXHR,textStatus,errorThrown){
+            alert(errorThrown);
+        }
 
-       }
+      });
+        });
+});  

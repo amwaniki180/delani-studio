@@ -48,5 +48,13 @@ $(document).ready(function () {
         "&merge_vars[NAME]="+ name+
         "&merge_vars[MESSAGE]=" +message+
         "&send_welcome=false";
+         $.ajax({
+        type:"POST",
+        url:link,
+        dataType:'json',
+        success: function(data){
+            var name = $("#name").val();
+        alert(name + " we have received your message. Thank you for subscribing");
+        },
 
        }

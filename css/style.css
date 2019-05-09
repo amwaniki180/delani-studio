@@ -1,6 +1,6 @@
 body{
   text-align: center;
-    font-size: 25px
+    font-size: 25px;
 }
 .home{
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -13,35 +13,48 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-position: top left;
-    /* background: red; */
     color: white;
     padding: 70px;
     padding-top: 70px;
 }
+.portfolio{
+  margin-bottom: 40px;
+}
+.portfolio-title{
+  display: flex;
+  text-align: center;
+  justify-content:center;
+}
 .portfolio-image{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
-.portfolio-image img{
-  width: 100%;
-}
-.imageContainer{
-  width: 23%;
+ .imageContainer{
+  display: inline-block;
+  width: 225px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   position: relative;
+  text-align: center;
+  color: #FEFEFC;
 }
-.imageContainer div{
-  background: red;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 3000;
+.imageContainer img{
+  width: 225px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.h1{
-  padding-top: 380px;
-}
-#devel,#product,#design{
+.work1-div,.work2-div,.work3-div,.work4-div,.work5-div,.work6-div,.work7-div,.work8-div{
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #FEFEFC solid 2px;
+  background: #FEFEFC;
+  opacity: 0.7;
+  color: black;
 }
 .column{
   float:left;

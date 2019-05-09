@@ -35,10 +35,11 @@ body{
 #name{
   width: 300px;
   height: 30px;
-
 }
 #email{
   width: 300px;
   height: 30px;
-
+}
+#message{
+  width: 700px;
 }

@@ -40,5 +40,5 @@ $(document).ready(function () {
            $(".message")[0].reset();
        });
        $(".message").bind("#submit",function(){
-         
+         var name = $("#name").val;
        }

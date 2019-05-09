@@ -11,10 +11,31 @@ body{
 .SERVICES{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: top left;
+    /* background: red; */
     color: white;
-    padding: 40px;
+    padding: 70px;
     padding-top: 70px;
+}
+.portfolio-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portfolio-image img{
+  width: 100%;
+}
+.imageContainer{
+  width: 23%;
+  position: relative;
+}
+.imageContainer div{
+  background: red;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3000;
 }
 .h1{
   padding-top: 380px;
@@ -42,4 +63,13 @@ body{
 }
 #message{
   width: 700px;
+}
+@media only screen and(max-width:800px){
+  .WHAT{
+    background: green;
+  }
+  .WHAT .row{
+    width: 100%;
+    background: red;
+  }
 }

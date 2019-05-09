@@ -56,9 +56,8 @@ body{
   opacity: 0.7;
   color: black;
 }
-.column{
-  float:left;
-   width: 33.33%;
+#devel,#product,#design{
+  min-height: 250px;
 }
 #contact{
   background-image: url("../assets/backgrounds/c_image.jpg");
@@ -77,7 +76,21 @@ body{
 #message{
   width: 700px;
 }
-@media only screen and(max-width:800px){
+.WHAT{
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+.WHAT h2{
+  width: 100%;
+}
+.WHAT .row{
+  width: 33%;
+}
+@media only screen and(max-width: 800px){
   .WHAT{
     background: green;
   }

@@ -42,5 +42,6 @@ $(document).ready(function () {
        $(".message").bind("#submit",function(){
          var name = $("#name").val;
          var email= $("#email").val;
+         var message = $("#message").val;
 
        }

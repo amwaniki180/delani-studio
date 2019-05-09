@@ -43,5 +43,10 @@ $(document).ready(function () {
          var name = $("#name").val;
          var email= $("#email").val;
          var message = $("#message").val;
+         var link = "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?" + "apikey=ad9f836f93af6bdcba872119e1a0860c-us20id=2b641f2179" +
+         "&email[email]="+ email +
+        "&merge_vars[NAME]="+ name+
+        "&merge_vars[MESSAGE]=" +message+
+        "&send_welcome=false";
 
        }
